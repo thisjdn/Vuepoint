@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D752522025AB9B1100617CDE /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D752521F25AB9B1100617CDE /* VideoViewController.swift */; };
+		D752522125AB9B1100617CDE /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D752521F25AB9B1100617CDE /* VideoViewController.swift */; };
+		D752522225AB9B1100617CDE /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D752521F25AB9B1100617CDE /* VideoViewController.swift */; };
+		D752522725AB9B1F00617CDE /* BeautyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D752522625AB9B1F00617CDE /* BeautyViewController.swift */; };
+		D752522825AB9B1F00617CDE /* BeautyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D752522625AB9B1F00617CDE /* BeautyViewController.swift */; };
+		D752522925AB9B1F00617CDE /* BeautyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D752522625AB9B1F00617CDE /* BeautyViewController.swift */; };
+		D752522E25AB9B2800617CDE /* FashionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D752522D25AB9B2800617CDE /* FashionViewController.swift */; };
+		D752522F25AB9B2800617CDE /* FashionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D752522D25AB9B2800617CDE /* FashionViewController.swift */; };
+		D752523025AB9B2800617CDE /* FashionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D752522D25AB9B2800617CDE /* FashionViewController.swift */; };
+		D7F06AEF25AB7EB900C75FDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F06AEE25AB7EB900C75FDB /* AppDelegate.swift */; };
+		D7F06AF125AB7EB900C75FDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F06AF025AB7EB900C75FDB /* SceneDelegate.swift */; };
+		D7F06AF325AB7EB900C75FDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F06AF225AB7EB900C75FDB /* ViewController.swift */; };
+		D7F06AF625AB7EB900C75FDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F06AF425AB7EB900C75FDB /* Main.storyboard */; };
+		D7F06AF825AB7EBA00C75FDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F06AF725AB7EBA00C75FDB /* Assets.xcassets */; };
+		D7F06AFB25AB7EBA00C75FDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F06AF925AB7EBA00C75FDB /* LaunchScreen.storyboard */; };
+		D7F06B0625AB7EBA00C75FDB /* VuepointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F06B0525AB7EBA00C75FDB /* VuepointTests.swift */; };
+		D7F06B1125AB7EBA00C75FDB /* VuepointUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F06B1025AB7EBA00C75FDB /* VuepointUITests.swift */; };
+		D7F06B2525AB83F500C75FDB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F06B2425AB83F500C75FDB /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7F06B0225AB7EBA00C75FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7F06AE325AB7EB900C75FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7F06AEA25AB7EB900C75FDB;
+			remoteInfo = Vuepoint;
+		};
+		D7F06B0D25AB7EBA00C75FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7F06AE325AB7EB900C75FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7F06AEA25AB7EB900C75FDB;
+			remoteInfo = Vuepoint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D752521F25AB9B1100617CDE /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		D752522625AB9B1F00617CDE /* BeautyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyViewController.swift; sourceTree = "<group>"; };
+		D752522D25AB9B2800617CDE /* FashionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionViewController.swift; sourceTree = "<group>"; };
+		D7F06AEB25AB7EB900C75FDB /* Vuepoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vuepoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F06AEE25AB7EB900C75FDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7F06AF025AB7EB900C75FDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D7F06AF225AB7EB900C75FDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7F06AF525AB7EB900C75FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7F06AF725AB7EBA00C75FDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7F06AFA25AB7EBA00C75FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7F06AFC25AB7EBA00C75FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7F06B0125AB7EBA00C75FDB /* VuepointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VuepointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F06B0525AB7EBA00C75FDB /* VuepointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VuepointTests.swift; sourceTree = "<group>"; };
+		D7F06B0725AB7EBA00C75FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7F06B0C25AB7EBA00C75FDB /* VuepointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VuepointUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F06B1025AB7EBA00C75FDB /* VuepointUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VuepointUITests.swift; sourceTree = "<group>"; };
+		D7F06B1225AB7EBA00C75FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7F06B2425AB83F500C75FDB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7F06AE825AB7EB900C75FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F06AFE25AB7EBA00C75FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F06B0925AB7EBA00C75FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7F06AE225AB7EB900C75FDB = {
+			isa = PBXGroup;
+			children = (
+				D7F06AED25AB7EB900C75FDB /* Vuepoint */,
+				D7F06B0425AB7EBA00C75FDB /* VuepointTests */,
+				D7F06B0F25AB7EBA00C75FDB /* VuepointUITests */,
+				D7F06AEC25AB7EB900C75FDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7F06AEC25AB7EB900C75FDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7F06AEB25AB7EB900C75FDB /* Vuepoint.app */,
+				D7F06B0125AB7EBA00C75FDB /* VuepointTests.xctest */,
+				D7F06B0C25AB7EBA00C75FDB /* VuepointUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7F06AED25AB7EB900C75FDB /* Vuepoint */ = {
+			isa = PBXGroup;
+			children = (
+				D7F06AEE25AB7EB900C75FDB /* AppDelegate.swift */,
+				D7F06AF025AB7EB900C75FDB /* SceneDelegate.swift */,
+				D7F06B2225AB83A100C75FDB /* Model */,
+				D7F06B2325AB83A700C75FDB /* View */,
+				D7F06B2125AB839A00C75FDB /* Controller */,
+				D7F06AF725AB7EBA00C75FDB /* Assets.xcassets */,
+				D7F06AFC25AB7EBA00C75FDB /* Info.plist */,
+			);
+			path = Vuepoint;
+			sourceTree = "<group>";
+		};
+		D7F06B0425AB7EBA00C75FDB /* VuepointTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7F06B0525AB7EBA00C75FDB /* VuepointTests.swift */,
+				D7F06B0725AB7EBA00C75FDB /* Info.plist */,
+			);
+			path = VuepointTests;
+			sourceTree = "<group>";
+		};
+		D7F06B0F25AB7EBA00C75FDB /* VuepointUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7F06B1025AB7EBA00C75FDB /* VuepointUITests.swift */,
+				D7F06B1225AB7EBA00C75FDB /* Info.plist */,
+			);
+			path = VuepointUITests;
+			sourceTree = "<group>";
+		};
+		D7F06B2125AB839A00C75FDB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D7F06AF225AB7EB900C75FDB /* ViewController.swift */,
+				D752521F25AB9B1100617CDE /* VideoViewController.swift */,
+				D752522625AB9B1F00617CDE /* BeautyViewController.swift */,
+				D752522D25AB9B2800617CDE /* FashionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D7F06B2225AB83A100C75FDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7F06B2425AB83F500C75FDB /* Constants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D7F06B2325AB83A700C75FDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D7F06AF425AB7EB900C75FDB /* Main.storyboard */,
+				D7F06AF925AB7EBA00C75FDB /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7F06AEA25AB7EB900C75FDB /* Vuepoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7F06B1525AB7EBA00C75FDB /* Build configuration list for PBXNativeTarget "Vuepoint" */;
+			buildPhases = (
+				D7F06AE725AB7EB900C75FDB /* Sources */,
+				D7F06AE825AB7EB900C75FDB /* Frameworks */,
+				D7F06AE925AB7EB900C75FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vuepoint;
+			productName = Vuepoint;
+			productReference = D7F06AEB25AB7EB900C75FDB /* Vuepoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7F06B0025AB7EBA00C75FDB /* VuepointTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7F06B1825AB7EBA00C75FDB /* Build configuration list for PBXNativeTarget "VuepointTests" */;
+			buildPhases = (
+				D7F06AFD25AB7EBA00C75FDB /* Sources */,
+				D7F06AFE25AB7EBA00C75FDB /* Frameworks */,
+				D7F06AFF25AB7EBA00C75FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7F06B0325AB7EBA00C75FDB /* PBXTargetDependency */,
+			);
+			name = VuepointTests;
+			productName = VuepointTests;
+			productReference = D7F06B0125AB7EBA00C75FDB /* VuepointTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7F06B0B25AB7EBA00C75FDB /* VuepointUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7F06B1B25AB7EBA00C75FDB /* Build configuration list for PBXNativeTarget "VuepointUITests" */;
+			buildPhases = (
+				D7F06B0825AB7EBA00C75FDB /* Sources */,
+				D7F06B0925AB7EBA00C75FDB /* Frameworks */,
+				D7F06B0A25AB7EBA00C75FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7F06B0E25AB7EBA00C75FDB /* PBXTargetDependency */,
+			);
+			name = VuepointUITests;
+			productName = VuepointUITests;
+			productReference = D7F06B0C25AB7EBA00C75FDB /* VuepointUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7F06AE325AB7EB900C75FDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					D7F06AEA25AB7EB900C75FDB = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					D7F06B0025AB7EBA00C75FDB = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D7F06AEA25AB7EB900C75FDB;
+					};
+					D7F06B0B25AB7EBA00C75FDB = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D7F06AEA25AB7EB900C75FDB;
+					};
+				};
+			};
+			buildConfigurationList = D7F06AE625AB7EB900C75FDB /* Build configuration list for PBXProject "Vuepoint" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7F06AE225AB7EB900C75FDB;
+			productRefGroup = D7F06AEC25AB7EB900C75FDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7F06AEA25AB7EB900C75FDB /* Vuepoint */,
+				D7F06B0025AB7EBA00C75FDB /* VuepointTests */,
+				D7F06B0B25AB7EBA00C75FDB /* VuepointUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7F06AE925AB7EB900C75FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F06AFB25AB7EBA00C75FDB /* LaunchScreen.storyboard in Resources */,
+				D7F06AF825AB7EBA00C75FDB /* Assets.xcassets in Resources */,
+				D7F06AF625AB7EB900C75FDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F06AFF25AB7EBA00C75FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F06B0A25AB7EBA00C75FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7F06AE725AB7EB900C75FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F06AF325AB7EB900C75FDB /* ViewController.swift in Sources */,
+				D7F06AEF25AB7EB900C75FDB /* AppDelegate.swift in Sources */,
+				D752522725AB9B1F00617CDE /* BeautyViewController.swift in Sources */,
+				D7F06AF125AB7EB900C75FDB /* SceneDelegate.swift in Sources */,
+				D752522025AB9B1100617CDE /* VideoViewController.swift in Sources */,
+				D7F06B2525AB83F500C75FDB /* Constants.swift in Sources */,
+				D752522E25AB9B2800617CDE /* FashionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F06AFD25AB7EBA00C75FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D752522125AB9B1100617CDE /* VideoViewController.swift in Sources */,
+				D752522F25AB9B2800617CDE /* FashionViewController.swift in Sources */,
+				D7F06B0625AB7EBA00C75FDB /* VuepointTests.swift in Sources */,
+				D752522825AB9B1F00617CDE /* BeautyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F06B0825AB7EBA00C75FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D752522225AB9B1100617CDE /* VideoViewController.swift in Sources */,
+				D752523025AB9B2800617CDE /* FashionViewController.swift in Sources */,
+				D7F06B1125AB7EBA00C75FDB /* VuepointUITests.swift in Sources */,
+				D752522925AB9B1F00617CDE /* BeautyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7F06B0325AB7EBA00C75FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7F06AEA25AB7EB900C75FDB /* Vuepoint */;
+			targetProxy = D7F06B0225AB7EBA00C75FDB /* PBXContainerItemProxy */;
+		};
+		D7F06B0E25AB7EBA00C75FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7F06AEA25AB7EB900C75FDB /* Vuepoint */;
+			targetProxy = D7F06B0D25AB7EBA00C75FDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7F06AF425AB7EB900C75FDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7F06AF525AB7EB900C75FDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7F06AF925AB7EBA00C75FDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7F06AFA25AB7EBA00C75FDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7F06B1325AB7EBA00C75FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7F06B1425AB7EBA00C75FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7F06B1625AB7EBA00C75FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NNCB58FYU;
+				INFOPLIST_FILE = Vuepoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdn.Vuepoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7F06B1725AB7EBA00C75FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NNCB58FYU;
+				INFOPLIST_FILE = Vuepoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdn.Vuepoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7F06B1925AB7EBA00C75FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NNCB58FYU;
+				INFOPLIST_FILE = VuepointTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdn.VuepointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vuepoint.app/Vuepoint";
+			};
+			name = Debug;
+		};
+		D7F06B1A25AB7EBA00C75FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NNCB58FYU;
+				INFOPLIST_FILE = VuepointTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdn.VuepointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vuepoint.app/Vuepoint";
+			};
+			name = Release;
+		};
+		D7F06B1C25AB7EBA00C75FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NNCB58FYU;
+				INFOPLIST_FILE = VuepointUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdn.VuepointUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vuepoint;
+			};
+			name = Debug;
+		};
+		D7F06B1D25AB7EBA00C75FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NNCB58FYU;
+				INFOPLIST_FILE = VuepointUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdn.VuepointUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vuepoint;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7F06AE625AB7EB900C75FDB /* Build configuration list for PBXProject "Vuepoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F06B1325AB7EBA00C75FDB /* Debug */,
+				D7F06B1425AB7EBA00C75FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7F06B1525AB7EBA00C75FDB /* Build configuration list for PBXNativeTarget "Vuepoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F06B1625AB7EBA00C75FDB /* Debug */,
+				D7F06B1725AB7EBA00C75FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7F06B1825AB7EBA00C75FDB /* Build configuration list for PBXNativeTarget "VuepointTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F06B1925AB7EBA00C75FDB /* Debug */,
+				D7F06B1A25AB7EBA00C75FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7F06B1B25AB7EBA00C75FDB /* Build configuration list for PBXNativeTarget "VuepointUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F06B1C25AB7EBA00C75FDB /* Debug */,
+				D7F06B1D25AB7EBA00C75FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7F06AE325AB7EB900C75FDB /* Project object */;
+}
