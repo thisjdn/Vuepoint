@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D713863C25ACBD8A006D7EFA /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D713863A25ACBD8A006D7EFA /* ImageCell.swift */; };
+		D713863D25ACBD8A006D7EFA /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D713863B25ACBD8A006D7EFA /* ImageCell.xib */; };
 		D752522025AB9B1100617CDE /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D752521F25AB9B1100617CDE /* VideoViewController.swift */; };
 		D752522125AB9B1100617CDE /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D752521F25AB9B1100617CDE /* VideoViewController.swift */; };
 		D752522225AB9B1100617CDE /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D752521F25AB9B1100617CDE /* VideoViewController.swift */; };
@@ -45,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D713863A25ACBD8A006D7EFA /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		D713863B25ACBD8A006D7EFA /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
 		D752521F25AB9B1100617CDE /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		D752522625AB9B1F00617CDE /* BeautyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyViewController.swift; sourceTree = "<group>"; };
 		D752522D25AB9B2800617CDE /* FashionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +122,7 @@
 				D7F06B2225AB83A100C75FDB /* Model */,
 				D7F06B2325AB83A700C75FDB /* View */,
 				D7F06B2125AB839A00C75FDB /* Controller */,
+				D7F06B2425AB83F500C75FDB /* Constants.swift */,
 				D7F06AF725AB7EBA00C75FDB /* Assets.xcassets */,
 				D7F06AFC25AB7EBA00C75FDB /* Info.plist */,
 			);
@@ -156,7 +161,6 @@
 		D7F06B2225AB83A100C75FDB /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D7F06B2425AB83F500C75FDB /* Constants.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,6 +170,8 @@
 			children = (
 				D7F06AF425AB7EB900C75FDB /* Main.storyboard */,
 				D7F06AF925AB7EBA00C75FDB /* LaunchScreen.storyboard */,
+				D713863A25ACBD8A006D7EFA /* ImageCell.swift */,
+				D713863B25ACBD8A006D7EFA /* ImageCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -274,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7F06AFB25AB7EBA00C75FDB /* LaunchScreen.storyboard in Resources */,
+				D713863D25ACBD8A006D7EFA /* ImageCell.xib in Resources */,
 				D7F06AF825AB7EBA00C75FDB /* Assets.xcassets in Resources */,
 				D7F06AF625AB7EB900C75FDB /* Main.storyboard in Resources */,
 			);
@@ -305,6 +312,7 @@
 				D752522725AB9B1F00617CDE /* BeautyViewController.swift in Sources */,
 				D7F06AF125AB7EB900C75FDB /* SceneDelegate.swift in Sources */,
 				D752522025AB9B1100617CDE /* VideoViewController.swift in Sources */,
+				D713863C25ACBD8A006D7EFA /* ImageCell.swift in Sources */,
 				D7F06B2525AB83F500C75FDB /* Constants.swift in Sources */,
 				D752522E25AB9B2800617CDE /* FashionViewController.swift in Sources */,
 			);

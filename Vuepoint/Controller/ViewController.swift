@@ -8,8 +8,8 @@ import Foundation
 import UIKit
 
 class ViewController: UIViewController {
-   
-    @IBOutlet weak var screenView: UIView!
+
+    @IBOutlet weak var tableView: UITableView!
     
     @IBOutlet weak var leading: NSLayoutConstraint!
     @IBOutlet weak var trailing: NSLayoutConstraint!
@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         navigationItem.title = Constants.title
+        
+        tableView.register(UINib(nibName: Constants.cell.cellNibName, bundle: nil), forCellReuseIdentifier: Constants.cell.cellIdentifier)
         
     }
     
@@ -59,4 +61,32 @@ class ViewController: UIViewController {
     
 }
 
-
+extension ViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        return Constants.photos.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: Constants.cell.cellIdentifier, for: indexPath) as! ImageCell
+        
+        let selectedImage = Constants.photos[indexPath.row]
+        
+        cell.imageView?.image = UIImage(named: selectedImage)
+        
+        
+//        for photo in Constants.photos {
+//            if let photoSelected : UIImage = UIImage(named: photo) {
+//                cell.imageView?.image = photoSelected
+//            }
+//        }
+        
+//        cell.imageView?.image
+        
+        return cell
+    }
+    
+    
+    
+}
