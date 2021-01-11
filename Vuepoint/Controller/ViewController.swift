@@ -8,8 +8,9 @@ import Foundation
 import UIKit
 
 class ViewController: UIViewController {
-
+   
     @IBOutlet weak var screenView: UIView!
+    
     @IBOutlet weak var leading: NSLayoutConstraint!
     @IBOutlet weak var trailing: NSLayoutConstraint!
     
@@ -19,7 +20,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         navigationItem.title = Constants.title
-        
         
     }
     
@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     
     func menuOpen() {
         leading.constant = 158
-        trailing.constant = 158
+        trailing.constant = -158
         menuOut = true
         animate()
     }
@@ -58,4 +58,5 @@ class ViewController: UIViewController {
     
     
 }
+
 
