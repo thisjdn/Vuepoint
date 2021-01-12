@@ -140,6 +140,7 @@
                                     <constraint firstAttribute="width" constant="158" id="R8P-P7-eDw"/>
                                 </constraints>
                             </stackView>
+<<<<<<< HEAD
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7lh-eK-eR0">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -154,10 +155,18 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+=======
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wUG-PG-m91">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="uEC-nT-dNd"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="bpx-D3-THs"/>
+                            </scrollView>
+>>>>>>> scrollView
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+<<<<<<< HEAD
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7lh-eK-eR0" secondAttribute="trailing" id="9dh-JP-cd2"/>
                             <constraint firstItem="7lh-eK-eR0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="IaD-5q-3rq"/>
                             <constraint firstItem="ndm-8R-c2s" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="PGF-Wy-i5m"/>
@@ -165,6 +174,15 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ndm-8R-c2s" secondAttribute="bottom" id="eTn-pA-7ZQ"/>
                             <constraint firstItem="ndm-8R-c2s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qbJ-9N-nP9"/>
                             <constraint firstItem="7lh-eK-eR0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wnq-FV-exo"/>
+=======
+                            <constraint firstItem="wUG-PG-m91" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Dbj-3Q-OUy"/>
+                            <constraint firstItem="ndm-8R-c2s" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="PGF-Wy-i5m"/>
+                            <constraint firstItem="wUG-PG-m91" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="R85-hM-6gO"/>
+                            <constraint firstItem="wUG-PG-m91" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="dtd-dc-Jna"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ndm-8R-c2s" secondAttribute="bottom" id="eTn-pA-7ZQ"/>
+                            <constraint firstItem="ndm-8R-c2s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qbJ-9N-nP9"/>
+                            <constraint firstItem="wUG-PG-m91" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="rbc-sw-0gk"/>
+>>>>>>> scrollView
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="z6V-XS-RNs">
@@ -176,9 +194,15 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="camera" id="ekV-oY-NhI"/>
                     </navigationItem>
                     <connections>
+<<<<<<< HEAD
                         <outlet property="leading" destination="wnq-FV-exo" id="5P0-Jo-ICY"/>
                         <outlet property="tableView" destination="7lh-eK-eR0" id="Vso-qg-XRy"/>
                         <outlet property="trailing" destination="9dh-JP-cd2" id="YnC-og-gwJ"/>
+=======
+                        <outlet property="leading" destination="R85-hM-6gO" id="bLN-CD-bIk"/>
+                        <outlet property="scrollView" destination="wUG-PG-m91" id="v8T-zn-ih2"/>
+                        <outlet property="trailing" destination="rbc-sw-0gk" id="YkY-CZ-Ktt"/>
+>>>>>>> scrollView
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
